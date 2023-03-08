@@ -4,7 +4,7 @@ import time
 @app.route('/')
 @app.route('/index')
 def index():
-    return { "my_data" : str(app) }
+    return { "my_data" : "Hello, World!" }
     # return f'Current weekday is {time.strftime("%A")}'
 
 
